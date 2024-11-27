@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.grid-container {
+  display: grid;
+  width: 100vw;
+  height: 900px;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.item1 {
+  background-image: url("item2.jpg");
+  background-size: cover;
+}
+
+.dois {
+  background-image: url("maxresdefault.jpg"); 
+  background-size: cover;
+}
+
+.item3 {
+  background-image: url("item3.jpg");
+  background-size: cover;
+}
+
+.item4 {
+  background-image: url("item4.jpg");
+  background-size: cover;
+}   
+
+.item5 {
+  background-image: url("item5.jpg");
+  background-size: cover;
+}
+
+.item6 {
+  background-image: url("item6.jpg");
+  background-size: cover;
+}
+
+.item7 {
+  background-image: url("item7.jpg");
+  background-size: cover;
+}
+
+.item8 {    
+  background-image: url("item8.jpg");    
+  background-size: cover;    
+}
+
+.item9 {    
+  background-image: url("item9.jpg");    
+  background-size: cover;    
+}
